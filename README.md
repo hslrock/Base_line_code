@@ -1,10 +1,19 @@
+# What is this Repository
+
+  This repository is for https://github.com/hoesungryu/cogsys_pytorch, it was used as baseline code for "Mini_Kaggle: Facial Expression Recognition on AffectNet" session.
+  We used small number of datasets from AffectNet and classification Task
+
+
+
 # Base_line_code
   
   Follow [MINIKAGGLE]Face Emotion......ipynb
   
-  make folder "test", "train"
   
-  correct way to unzip dataset
+  make folder "test", "train" on the cloned directory
+  
+  correct way to unzip dataset is:
+  
   
   test->"images"
   
@@ -35,6 +44,3 @@ https://datascienceschool.net/view-notebook/f9d9fddb7cc7494a9e4be99f0e137be0/
  *Runtime could close if no activity, and your data will be lost so save model and download just in case during training
  *directly reading whole images from drive sometimes cause unknown error, better upload zip files into google drive, and unzip to hosted'save_data' path, for details follow the code of unzipping in ColabMethond.ipynb
 
-## TO DO ("message to myself or hoesung")
-
-Include Baseline accuracy
